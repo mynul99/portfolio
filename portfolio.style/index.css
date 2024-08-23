@@ -4,7 +4,7 @@ body {
   font-family: "Moderustic", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style:normal;
+  font-style: normal;
 }
 
 .primary-color {
@@ -21,15 +21,16 @@ body {
   font-weight: 700;
 
 }
-.btn-text-clr{
+
+.btn-text-clr {
   color: aliceblue;
 }
 
 /*nav section*/
 nav {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-title {
@@ -41,7 +42,7 @@ nav {
 
 nav>ul {
   display: flex;
-   align-items: center;
+  align-items: center;
 }
 
 nav li {
@@ -53,4 +54,43 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* banner-section */
+.header {
+  background: #FFF8F3;
+  padding: 30px 30px 30px 150px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner-titel {
+  color: #474747;
+
+  font-size: 45px;
+
+  font-weight: 600;
+
+}
+.name{
+  color:  #181818;
+ 
+font-size: 85px;
+ 
+font-weight: 700;
+ 
+}
+.banner-dis{
+  color:  #757575;
+ 
+font-size: 18px;
+ 
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+#cv{
+  margin-right: 5px;
 }
