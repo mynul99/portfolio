@@ -237,3 +237,27 @@ main {
  text-align: center;
  margin-top: 50px;
 }
+/* footer section */
+footer{
+  background-color: #FFF8F3; 
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.social-link a{
+  margin-right: 25px;
+}
+.footer-clm{
+  width: 50%;
+}
+.contact input, textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  border-radius: 5px;
+background:#FFF;
+border: 0;
+width: 100%;
+}
