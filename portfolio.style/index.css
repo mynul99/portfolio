@@ -25,6 +25,9 @@ body {
 .btn-text-clr {
   color: aliceblue;
 }
+section{
+  margin-top: 130px;
+}
 
 .section-title {
 
@@ -34,6 +37,7 @@ body {
   font-size: 35px;
 
   font-weight: 700;
+ 
 
 }
 
@@ -135,7 +139,7 @@ nav a {
 
 /* main section */
 main {
-  max-width: 1340px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -143,7 +147,7 @@ main {
 .about {
   border-radius: 10px;
   background: #FFF8F3;
-  margin: 130px;
+  
 
   padding: 130px 150px;
 
@@ -194,7 +198,7 @@ main {
 
 .skills-contain {
   display: flex;
-  padding: 0 130px;
+ 
   gap: 20px;
   margin-bottom: 50px;
 }
@@ -226,4 +230,10 @@ main {
 /* resume section */
 .resume-contain{
   display: flex;
+  gap: 70px;
+}
+
+.download-btn{
+ text-align: center;
+ margin-top: 50px;
 }
